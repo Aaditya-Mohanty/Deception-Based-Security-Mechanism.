@@ -26,11 +26,17 @@ Traditional IDS systems fight false positives. A honeypot has a theoretical fals
 • ip-api.com geolocation + OpenStreetMap
 
 📊 The dashboard includes:
+
 ✅ Live alert feed with real-time polling
-✅ Severity classification (MEDIUM / HIGH)
+
+✅ Severity classification (MEDIUM / HIGH
+
 ✅ Credential capture display
+
 ✅ One-click IP geolocation modal + interactive map
+
 ✅ Clickable metric cards for instant alert filtering
+
 ✅ Top offending IPs ranked by activity
 
 This project taught me that the best security traps don't look like traps at all.
