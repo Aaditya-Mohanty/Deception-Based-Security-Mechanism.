@@ -5,7 +5,7 @@ HoneyOps is a real-time honeypot system designed to detect and analyze malicious
 
 The platform follows a deception-first security approach. Instead of blocking attackers, it traps, monitors, and analyzes them in real time. Any interaction with the system is treated as suspicious, resulting in highly reliable detection with near-zero false positives. 
 
----
+-----
 
 ## Features  
 - Deployment of three realistic fake enterprise portals (`/login`, `/admin`, `/dashboard`)  
@@ -17,7 +17,7 @@ The platform follows a deception-first security approach. Instead of blocking at
 - Persistent JSON-based alert storage  
 - Interactive filtering and visualization of threats  
 
----
+-----
 
 ## How It Works  
 
@@ -28,7 +28,7 @@ Since no legitimate user should access these portals:
 - Any visit is treated as suspicious activity  
 - Any credential submission is considered a confirmed attack attempt  
 
----
+-----
 
 ### Detection Logic  
 
@@ -40,7 +40,7 @@ Since no legitimate user should access these portals:
 - Any credential submission is captured  
 - Logged as an active intrusion attempt  
 
----
+-----
 
 ### Logged Data  
 Each interaction records:  
@@ -51,7 +51,7 @@ Each interaction records:
 - Submitted credentials (if any)  
 - Severity level  
 
----
+------
 
 ### Real-Time Monitoring  
 - Alerts are streamed live to the dashboard  
