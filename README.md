@@ -1,6 +1,6 @@
 # HoneyOps — Real-Time Honeypot Deception Platform  
 
-## Overview  
+## Overview
 HoneyOps is a real-time honeypot system designed to detect and analyze malicious activity by deploying highly realistic fake enterprise login portals.  
 
 The platform follows a deception-first security approach. Instead of blocking attackers, it traps, monitors, and analyzes them in real time. Any interaction with the system is treated as suspicious, resulting in highly reliable detection with near-zero false positives. 
