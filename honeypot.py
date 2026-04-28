@@ -5,7 +5,6 @@ from datetime import datetime
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import parse_qs, urlparse
 from flask import Flask, jsonify, render_template_string
-
 app = Flask(__name__)
 ALERT_LOG = "honeypot_alerts.json"
 HONEYPOT_PORT = 8080
@@ -125,7 +124,7 @@ FAKE_DENIED = """<!DOCTYPE html>
 <p style="color:#6b7280;margin-top:8px">Redirecting to login...</p></div></body></html>"""
 
 # ─────────────────────────────────────────────────────────────
-#  ALERT STORAGE
+ALERT STORAGE
 # ─────────────────────────────────────────────────────────────
 def load_alerts():
     if not os.path.exists(ALERT_LOG):
